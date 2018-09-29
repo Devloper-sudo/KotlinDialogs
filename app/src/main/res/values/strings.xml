@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">KotlinDialogsApps</string>
+    <string name="font_gothic_bold">gothic_bold.ttf</string>
+    <string name="font_gothic">gothic.ttf</string>
+    <string name="font_gothic_italic">gothic_italic.ttf</string>
+    <string name="about_us">Developed By Reign Developer .Write Your Ouwn About Us</string>
+    <string name="positive">Yes</string>
+    <string name="negative">No</string>
+    <string name="dialog_msg">Are You Sure Want to Exit?</string>
+    <string name="exit_title">Exit</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="field_register">Register</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="prompt_lastname">Last Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="sign_up">SignUp</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="success_messgae">Message</string>
+    <string name="thank_you">Thank You</string>
+    <string name="success_btn">Success</string>
+    <string name="success_message">Success Message</string>
+
+</resources>

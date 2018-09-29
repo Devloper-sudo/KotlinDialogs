@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <bool name="default_circle_indicator_centered">true</bool>
+    <color name="default_circle_indicator_fill_color">#181f29</color>
+    <color name="default_circle_indicator_page_color">#181f29</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_stroke_color">#181f29</color>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+
+    <!--<color name="colorPrimary">#181f29</color>-->
+    <!--<color name="colorPrimaryDark">#181f29</color>-->
+    <!--<color name="colorAccent">#424242</color>-->
+
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="dim_black">#77000000</color>
+    <color name="normal_bg">#c9d5d5</color>
+    <color name="register_bg">#a9b4b4</color>
+    <color name="login_btn_bg">#31b5c4</color>
+
+    <color name="green_indicator">#00a652</color>
+    <color name="red_indicator">#e53935</color>
+    <color name="partition_color">#d6d6d6</color>
+
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_active">#ff778088</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    <color name="calendar_text_highlighted">#ff778088</color>
+
+    <color name="custom_header_text">#85B100</color>
+    <color name="custom_selected">#A8D324</color>
+    <color name="custom_background">#F0F8DB</color>
+    <color name="custom_background_today">#FF9105</color>
+    <color name="custom_background_disabled">#F0F8DB</color>
+    <color name="custom_text_selected">#FFFFFFFF</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <color name="transparent">#00000000</color>
+    <color name="skip_btn">#AEB9CA</color>
+    <color name="taken_btn">#54B253</color>
+
+
+    <color name="White">#ffffffff</color>
+    <color name="Black">#ff000000</color>
+    <color name="Red">#ffff0000</color>
+    <color name="Green">#ff008000</color>
+    <color name="Yellow">#ffffff00</color>
+    <color name="Orange">#ffffa500</color>
+    <color name="Pink">#ffffc0cb</color>
+    <color name="Brown">#ffa52a2a</color>
+    <color name="Magenta">#ffff00ff</color>
+    <color name="blue">#ff41b9e3</color>
+    <color name="Navy">#ff000080</color>
+    <color name="medicine_info_bg">#c9d4d5</color>
+    <color name="blue_bg">#39B6C8</color>
+
+    <color name="background_color">#423752</color>
+
+</resources>

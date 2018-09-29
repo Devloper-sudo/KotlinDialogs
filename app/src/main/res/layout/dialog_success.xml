@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/tools"
+    android:id="@+id/OverwriteLay"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialogue_bg"
+        android:padding="10dp">
+
+        <reign.com.kotlindialogsapps.CustomFont
+            android:id="@+id/headtitleDiaTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/success_messgae"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:customFont="@string/font_gothic_bold" />
+
+        <ImageView
+            android:id="@+id/right_Iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="40dp"
+            android:src="@drawable/ic_right" />
+
+        <LinearLayout
+            android:id="@+id/diaTitleLay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/right_Iv"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <reign.com.kotlindialogsapps.CustomFont
+                android:id="@+id/dia_msg_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/thank_you"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                font:customFont="@string/font_helvet_med" />
+
+            <reign.com.kotlindialogsapps.CustomFont
+                android:id="@+id/dia_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:text="@string/success_message"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                font:customFont="@string/font_helvet_med" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/diaTitleLay"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/hori_partition"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:src="@color/partition_color" />
+
+            <LinearLayout
+                android:id="@+id/linearLay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:gravity="center_vertical">
+
+                <reign.com.kotlindialogsapps.CustomFont
+                    android:id="@+id/yes"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.45"
+                    android:background="@drawable/bg_btn"
+                    android:gravity="center"
+                    android:text="@string/success_btn"
+                    android:textColor="@color/white"
+                    font:customFont="@string/font_helvet_med" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="10dip"
+                android:layout_below="@+id/linearLay" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

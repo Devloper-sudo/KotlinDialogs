@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/normal_bg"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/topLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:visibility="gone">
+
+        <reign.com.kotlindialogsapps.CustomFont
+            android:id="@+id/dialogTitleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/exit_title"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            font:customFont="@string/font_gothic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/login_btn_bg" />
+    </LinearLayout>
+
+    <reign.com.kotlindialogsapps.CustomFont
+        android:id="@+id/dialogMsgTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_msg"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        font:customFont="@string/font_gothic" />
+
+    <LinearLayout
+        android:id="@+id/llBottomContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNegative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.49"
+            android:background="@drawable/bg_btn"
+            android:gravity="center"
+            android:text="@string/negative"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:layout_width="4dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnPositive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.49"
+            android:background="@drawable/bg_btn"
+            android:gravity="center"
+            android:text="@string/positive"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>
